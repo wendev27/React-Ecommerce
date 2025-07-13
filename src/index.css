@@ -1,0 +1,121 @@
+/* tailwind css  */
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* google font inter  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+.banner_slide_item {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+.banner_image {
+  position: relative;
+  z-index: 2;
+}
+
+.banner_image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 747px;
+  width: 100%;
+  min-height: 747px;
+  height: 100%;
+  background-color: #e1e3e5;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.slider_container > .slick-slider > .slick-prev,
+.slider_container > .slick-slider > .slick-next {
+  z-index: 5 !important;
+}
+
+.slick-prev {
+  left: -95px !important;
+}
+
+.slick-next {
+  right: -95px !important;
+}
+
+.slider_container > .slick-slider > .slick-prev:before,
+.slider_container > .slick-slider > .slick-next:before {
+  font-family: "slick";
+  font-size: 52px !important;
+  line-height: 1;
+  opacity: 0.75;
+  color: #007580 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider_container > .slick-slider > .slick-dots {
+  position: absolute;
+  bottom: 0px !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slider_container > .slick-slider > .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 22px !important;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider_container
+  > .slick-slider
+  > .slick-dots
+  > li.slick-active
+  button:before {
+  color: #007580 !important;
+}
+
+.delivery_component {
+  margin-top: -4rem;
+  position: relative;
+  z-index: 5;
+}
+
+.features_slider > .slick-slider > .slick-prev:before,
+.features_slider > .slick-slider > .slick-next:before {
+  font-size: 39px !important;
+  color: #007580;
+}
+
+.client_say_description {
+  position: relative;
+}
+.client_say_description::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -27px;
+  width: 3px;
+  height: 100%;
+  background-color: #007580;
+}
