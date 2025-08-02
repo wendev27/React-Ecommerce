@@ -2,31 +2,31 @@ function Brand() {
   const brands = [
     {
       id: 1,
-      image: import.meta.env.BASE_URL + "/brands/brand_1.png",
+      image: "/brands/brand_1.png",
     },
     {
       id: 2,
-      image: import.meta.env.BASE_URL + "/brands/brand_2.png",
+      image: "/brands/brand_2.png",
     },
     {
       id: 3,
-      image: import.meta.env.BASE_URL + "/brands/brand_3.png",
+      image: "/brands/brand_3.png",
     },
     {
       id: 4,
-      image: import.meta.env.BASE_URL + "/brands/brand_4.png",
+      image: "/brands/brand_4.png",
     },
     {
       id: 5,
-      image: import.meta.env.BASE_URL + "/brands/brand_5.png",
+      image: "/brands/brand_5.png",
     },
     {
       id: 6,
-      image: import.meta.env.BASE_URL + "/brands/brand_6.png",
+      image: "/brands/brand_6.png",
     },
     {
       id: 7,
-      image: import.meta.env.BASE_URL + "/brands/brand_7.png",
+      image: "/brands/brand_7.png",
     },
   ];
 

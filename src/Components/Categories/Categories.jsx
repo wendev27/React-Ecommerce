@@ -9,22 +9,22 @@ function Categories() {
     {
       title: "Wing Chair",
       products: "3,584 Products",
-      image: import.meta.env.BASE_URL + "/categories/categories_1.png",
+      image: "/categories/categories_1.png",
     },
     {
       title: "Wooden Chair",
       products: "157 Products",
-      image: import.meta.env.BASE_URL + "/categories/categories_2.png",
+      image: "/categories/categories_2.png",
     },
     {
       title: "desk Chair",
       products: "154 Products",
-      image: import.meta.env.BASE_URL + "/categories/categories_3.png",
+      image: "/categories/categories_3.png",
     },
     {
       title: "Park Bench",
       products: "154 Products",
-      image: import.meta.env.BASE_URL + "/categories/categories_4.png",
+      image: "/categories/categories_4.png",
     },
   ];
 
